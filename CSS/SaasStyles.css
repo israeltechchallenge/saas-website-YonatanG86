@@ -1,0 +1,358 @@
+* {
+    padding: 0 !important;
+    margin: 0 !important;
+    /* border: red 1px solid; */
+}
+
+body {
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    line-height: 22px;
+    cursor: pointer;
+    max-height: 100%;
+}
+
+.px15 {
+    font-size: 16px;
+}
+
+.stretch {
+    height: 100vh;
+}
+
+.hight-top {
+    height: 60px;
+}
+
+.White {
+    background-color: white;
+}
+.SaaS {
+    font-weight: 600;
+    font-size: 18px;
+    color: #109cf1;
+    z-index: 45;
+}
+.profile-pic {
+    background-image: url("../Pic/Profile.png");
+    background-color: #f5f6f8;
+    background-repeat: no-repeat;
+    background-size: 62px 62px;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+}
+.circle {
+    border-radius: 50%;
+    height: auto;
+    width: 62px;
+    border: white solid 1px;
+}
+@media screen and (min-width: 770px) {
+    body {
+        background-color: #e5e5e5;
+    }
+
+    .shadowsboxs {
+        box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.15) inset;
+    }
+}
+.shadowsboxs {
+    box-shadow: none;
+    border-radius: 4px;
+}
+
+.shadowtasks:hover {
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.14);
+}
+.shadowtasks {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+}
+
+.shadowsboxsgraphs {
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+}
+
+.bar {
+    height: 8px;
+    background-color: rgba(235, 239, 242, 1);
+    border-radius: 4px;
+}
+
+.bar-completed {
+    height: 7px;
+    width: 80%;
+    background-color: rgba(46, 212, 122, 1);
+    border-radius: 4px;
+}
+
+.underline {
+    border-bottom: 2px solid rgba(235, 239, 242, 1);
+}
+
+.weeklytags {
+    padding: 0;
+}
+
+.days {
+    padding: 0;
+    padding-bottom: 8px;
+    color: #334d6e;
+    font-size: 13px;
+    opacity: 0.5;
+}
+.dateofdays {
+    font-size: 12px;
+    color: #184972;
+    width: 2.5em;
+    height: 2.5em;
+    line-height: 2.5em;
+    text-align: center;
+    justify-self: center;
+}
+
+.today-blue,
+.text-blue {
+    color: #109cf1;
+    border: none;
+}
+
+.select-blue {
+    border-radius: 50%;
+    background-color: #109cf1;
+    color: white;
+}
+
+.grey {
+    color: grey;
+}
+
+.dark_gray {
+    color: #4c5862;
+}
+.o0o5 {
+    opacity: 0.5;
+}
+
+.table_gray {
+    color: #707683;
+}
+
+/* .weeklytags:hover {
+    font-weight: bold;
+    color: rgba(16, 156, 241, 1);
+  } */
+.task-person-pic1 {
+    background-image: url("../Pic/image\ 1.png");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 35px 35px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.task-person-pic2 {
+    background-image: url("../Pic/image\ 2.png");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 35px 35px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.task-person-pic3 {
+    background-image: url("../Pic/image\ 3.png");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 35px 35px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.taskperson {
+    color: #707683;
+}
+
+.taskstatuse {
+    width: 84px;
+    height: 22px;
+    border-radius: 4px;
+    color: white;
+    background-color: grey;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.completed {
+    background: #2ed47a;
+}
+
+.ended {
+    background: #f7685b;
+}
+
+.button {
+    border: none;
+    background-color: white;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #109cf1;
+}
+
+/*   Top Bar   */
+
+.search-bar {
+    border: none;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #90a0b7;
+}
+
+.icon {
+    background-size: cover;
+}
+
+.icon:hover {
+    color: #109cf1;
+    /* filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%); */
+}
+
+/*   Side bar   */
+
+.side-bar {
+    box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+}
+
+.Graph-grif {
+    display: grid;
+    grid-template:
+        "a i i i i" auto
+        "b i i i i" auto
+        "c i i i i" auto
+        "d i i i i" auto
+        ". e f g h" auto / auto auto auto auto auto;
+    position: relative;
+}
+
+.i {
+    grid-column: 2 / 6;
+    grid-row: 1 / 5;
+}
+
+.devider.top {
+    grid-column: 2 / 6;
+    grid-row: 1 / 2;
+    border-top: 2px dashed steelblue;
+    border-bottom: 2px dashed steelblue;
+}
+.devider.bttm {
+    grid-column: 2 / 6;
+    grid-row: 4 / 5;
+    border-top: 2px dashed steelblue;
+    border-bottom: 2px dashed steelblue;
+}
+.devider.middle {
+    grid-column: 2 / 6;
+    grid-row: 3 / 4;
+    border-top: 2px dashed steelblue;
+}
+
+.ellipse-red {
+    border: 3px solid #f7685b;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+.ellipse-yellow {
+    border: 3px solid #ffb946;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+.ellipse-green {
+    border: 3px solid #2ed47a;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+.dot {
+    width: 46px;
+    height: 24px;
+    background: #192a3e;
+    opacity: 0.7;
+    border-radius: 15px;
+
+    font-weight: bolder;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+
+    position: absolute;
+    left: 78%;
+    top: 14%;
+}
+
+.dot-number {
+    position: absolute;
+    left: 30%;
+    top: 16%;
+}
+
+.text-graphs {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #4c5862;
+}
+
+.Flexm {
+    display: flexbox;
+    flex-direction: column;
+    /* align-items: stretch; */
+    justify-items: end;
+    justify-content: space-between;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.notification-bell {
+    position: relative;
+}
+
+.notification {
+    background: #f7685b;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+
+    position: absolute;
+    left: 65%;
+    top: 10%;
+}
+
+.flexm {
+    display: flex;
+}
