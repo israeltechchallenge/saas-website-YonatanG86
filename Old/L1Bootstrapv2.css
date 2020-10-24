@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*:hover {
+  border: solid 1px lightcoral;
+}
+
+body {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.White {
+  background-color: white;
+}
+.roundcorners {
+  border-radius: 4px;
+}
+
+.Screen {
+  margin: 0;
+  padding: 0;
+}
+
+.ResCon {
+  height: 100vh;
+}
+
+@media (min-width: 768px) {
+  .strech2 {
+    height: 100vh;
+  }
+  body.container-fluid {
+    background-color: #e5e5e5;
+  }
+  .datesbar {
+    display: block;
+  }
+}
+.icon {
+  width: 16px;
+  height: 19.5px;
+  margin: 0;
+  padding: 0;
+}
+.underline {
+  border-bottom: 2px solid rgba(235, 239, 242, 1);
+}
+.bar {
+  height: 4px;
+  background-color: rgba(235, 239, 242, 1);
+}
+
+.bar-completed {
+  height: 4px;
+  width: 80%;
+  background-color: rgba(46, 212, 122, 1);
+}
+
+.px13 {
+  font-size: 13px;
+}
+
+.tasks-style {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+}
+.datesbar {
+  display: none;
+}
+
+.weeklytags {
+  padding: 0;
+}
+
+.days {
+  padding: 0;
+  padding-bottom: 8px;
+  color: #334d6e;
+  font-size: 13px;
+  opacity: 0.5;
+}
+.dateofdays {
+  padding: 0;
+  font-size: 12px;
+  color: #184972;
+}
+
+.weeklytags:hover {
+  font-weight: bold;
+  color: rgba(16, 156, 241, 1);
+}
+
+.datecircle {
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  justify-self: center;
+
+  background: rgba(16, 156, 241, 1);
+  color: #ffffff;
+  border-radius: 50%;
+}
